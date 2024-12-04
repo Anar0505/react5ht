@@ -1,0 +1,31 @@
+/* Ümumi navbar tərtibatı */
+.navbar {
+    display: flex;
+    justify-content: center; /* Linkləri ortalayır */
+    align-items: center;
+    background-color: #222; /* Tünd fon */
+    padding: 10px 0;
+  }
+  
+  /* NavLink-lər */
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Ağ rəng */
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 0 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effektləri */
+  .nav-link:hover {
+    background-color: #555; /* Hover zamanı tünd boz fon */
+  }
+  
+  /* Aktiv link üçün stil */
+  .active{
+    background-color: #007bff; /* Aktiv link üçün mavi fon */
+    color: white;
+  }
+  
