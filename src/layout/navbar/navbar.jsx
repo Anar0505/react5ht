@@ -16,6 +16,9 @@ function Navbar() {
       <NavLink to="/bmi" className="nav-link" >
         Bmi
       </NavLink>
+      <NavLink to="/coin" className="nav-link" >
+        Coin
+      </NavLink>
     </nav>
 </>  )
 }

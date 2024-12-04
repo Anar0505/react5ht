@@ -10,9 +10,9 @@ const Collapse = ({ children }) => {
 
   return (
     <div className="collapse-container">
-      <button className={`collapse-btn ${isOpen ? 'open' : ''}`} onClick={toggleCollapse}>
+      <div className={`collapse-btn ${isOpen ? 'open' : ''}`} onClick={toggleCollapse}>
         {isOpen ? 'Collapse' : 'Expand'}
-      </button>
+      </div>
       <div className={`collapse-content ${isOpen ? 'show' : ''}`}>
         {children}
       </div>

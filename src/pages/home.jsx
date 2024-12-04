@@ -17,7 +17,17 @@ function Home() {
      
       </Collapse>
       
-        
+      <Collapse>
+        <div>
+          <p>Anar</p>
+          <p>Aliyev</p>
+        </div>
+        <div>
+          <p>Anar</p>
+          <p>Aliyev</p>
+        </div>
+     
+      </Collapse>
     </div>
   )
 }

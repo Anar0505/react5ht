@@ -5,7 +5,7 @@ const [isopen, setisopen] = useState(false)
 
   return (<>
     <button onClick={()=>setisopen(!isopen)} className={`drawer-btn ${isopen ? 'open' : ''}`}>   {isopen ? 'Close' : 'Open'}</button>
-    <div className={isopen?"sidebar":"sidebar active"}></div>
+    <div className={isopen?"sidebar active":"sidebar "}></div>
  </> )
 }
 

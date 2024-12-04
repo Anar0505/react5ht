@@ -8,6 +8,7 @@ import Drawer from './pages/drawer.jsx'
 import Home from './pages/home.jsx'
 import Tabs from './components/Tabs/tabs.jsx'
 import Bmi from './pages/BMI/index.jsx'
+import Coin from './pages/coin/index.jsx'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
            <Route path="/drawer" element={<Drawer />} />
           <Route path="/tabs" element={<Tabs />} />  
           <Route path="/bmi" element={<Bmi />} />  
+          <Route path="/coin" element={<Coin />} />  
         </Route>
       </Routes>
     </BrowserRouter>
